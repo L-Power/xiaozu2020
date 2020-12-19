@@ -1,0 +1,22 @@
+
+td.mingzi {
+    display: flex;
+    padding: 0 1em;
+    
+    text-align: center;
+}
+
+.btn {
+    padding: 2px 15px;
+    background-color: darkcyan;
+    align-items:center;
+
+}
+.ctrlbar {
+    display: flex;
+    padding: 0 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+

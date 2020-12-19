@@ -1,0 +1,41 @@
+.page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel {
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog {
+    width: 30em;
+    height: max-content;
+    background-color: hsl(241deg 55% 32% / 63%);
+    color: #fff;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialog > .title {
+    text-align: center;
+    font-size: 2em;
+}
+
+.dialog > .content {
+    padding: 1em 2em;
+    font-size: 1.2em;
+    line-height: 1.2;
+    text-align: center;
+    flex: 1 1;
+}
+
+.dialog > .footer {
+    display: flex;
+    justify-content: center;
+}
+
+
